@@ -1,0 +1,11 @@
+# Rust
+/target
+/contracts/vault/target
+
+# Node
+/frontend/node_modules
+
+# Editor
+.idea
+.vscode
+*.swp
