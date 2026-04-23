@@ -1,9 +1,11 @@
 export {
   Activity,
-  ChevronRight,
   AlertCircle,
+  AlertTriangle,
   Check,
+  ChevronRight,
   Copy,
+  Info,
   Layers,
   Loader2,
   LogOut,

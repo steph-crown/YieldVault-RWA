@@ -1,0 +1,11 @@
+[advisories]
+# These advisories are for transitive dependencies pulled in by soroban-sdk
+# and cannot be resolved by upgrading direct dependencies.
+ignore = [
+    # derivative 2.2.0 - unmaintained (transitive via soroban-env-host/ark-*)
+    "RUSTSEC-2024-0388",
+    # paste 1.0.15 - unmaintained (transitive via soroban-wasmi)
+    "RUSTSEC-2024-0436",
+    # rand 0.8.5 / 0.9.2 - unsound with custom logger (transitive via soroban-sdk/proptest)
+    "RUSTSEC-2026-0097",
+]
